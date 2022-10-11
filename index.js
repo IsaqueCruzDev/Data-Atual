@@ -118,4 +118,17 @@ function resultadoData () {
     resultado.appendChild(elemento);
 }
 
-resultadoData();
+resultadoData(); 
+
+// Fazendo exatamente o mesmo código de forma reduzida:
+
+/*
+const h1 = document.querySelector('h1');
+const data = new Date();
+const opcoes = {
+    dateStyle: 'full',
+    timeStyle: 'short'
+};
+
+h1.innerHTML = data.toLocaleDateString('pt-BR', opcoes);
+*/
